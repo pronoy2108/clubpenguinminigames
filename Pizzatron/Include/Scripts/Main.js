@@ -1,7 +1,7 @@
 // Import other files
-include("Include/Scripts/Game")
-include("Include/Scripts/Input")
-include("Include/Scripts/Orders")
+include("./Include/Scripts/Game")
+include("./Include/Scripts/Input")
+include("./Include/Scripts/Orders")
 
 // Preload assets with optional callback, and percentage callback
 function preload(a, c, pc) {
