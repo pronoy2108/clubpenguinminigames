@@ -1,8 +1,8 @@
 // Import other files
-include("Include/Scripts/Hazard")
-include("Include/Scripts/Input")
-include("Include/Scripts/Play")
-include("Include/Scripts/VR")
+import("Include/Scripts/Hazard")
+import("Include/Scripts/Input")
+import("Include/Scripts/Play")
+import("Include/Scripts/VR")
 
 // Preload assets with optional callback, and percentage callback
 function preload(a, c, pc) {
