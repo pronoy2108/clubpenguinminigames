@@ -35,10 +35,10 @@ function preload(a, c, pc) {
 
 app.onLoad(function() {
 	app.setState("Loading")
-	var a = "Assets/"
-	var h = a+"Hazards/"
-	var p = a+"Player/"
-	var s = a+"Sounds/"
+	var a = "./Assets/"
+	var h = a+"./Hazards/"
+	var p = a+"./Player/"
+	var s = a+"./Sounds/"
 	var v = a+"VR/"
 	// Preload all the assets
 	preload([a+"Background.png",a+"Button.png",a+"Game.png",a+"Main.png",a+"Platform.png",a+"Shop.png",a+"Start.png",a+"Truck.png",h+"Anvil.png",h+"Anvil_Broken.png",h+"Bag_1.png",h+"Bag_2.png",h+"Bag_3.png",h+"Bag_Broken.png",h+"Fish.png",h+"Fish_Broken.png",h+"Life.png",h+"Vase.png",h+"Vase_Broken.png",p+"0.png",p+"1.png",p+"2.png",p+"3.png",p+"4.png",p+"5.png",p+"Anvil_Dead.png",p+"Bag_Dead.png",p+"Fish_Dead.png",p+"Vase_Dead.png",s+"Anvil_Land.mp3",s+"Bag_Land.mp3",s+"Catch.mp3",s+"Fish_Land.mp3",s+"Hit.mp3",s+"Life.mp3",s+"Music.mp3",s+"Place.mp3",s+"Truck.mp3",s+"TruckReverse.mp3",s+"Vase_Land.mp3",v+"LaboVR.png"], function() {
